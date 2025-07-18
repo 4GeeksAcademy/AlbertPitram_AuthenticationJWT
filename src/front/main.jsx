@@ -24,6 +24,7 @@ const Main = () => {
         </React.StrictMode>
     );
 }
-
+console.log("🚀 Frontend carregat");
+console.log("BACKEND:", import.meta.env.VITE_BACKEND_URL);
 // Render the Main component into the root DOM element.
 ReactDOM.createRoot(document.getElementById('root')).render(<Main />)

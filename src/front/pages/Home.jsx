@@ -34,16 +34,16 @@ export const Home = () => {
 
 	return (
 		<div className="text-center mt-5">
-			<h1 className="display-4">Hello Rigo!!</h1>
+			<h1 className="display-4">Hello welcome to this amazing exercise</h1>
 			<p className="lead">
-				<img src={rigoImageUrl} className="img-fluid rounded-circle mb-3" alt="Rigo Baby" />
+				<img src="https://images7.memedroid.com/images/UPLOADED822/65826d8530586.jpeg" />
 			</p>
 			<div className="alert alert-info">
 				{store.message ? (
 					<span>{store.message}</span>
 				) : (
 					<span className="text-danger">
-						Loading message from the backend (make sure your python 🐍 backend is running)...
+						Login for amazing features 😲...
 					</span>
 				)}
 			</div>
